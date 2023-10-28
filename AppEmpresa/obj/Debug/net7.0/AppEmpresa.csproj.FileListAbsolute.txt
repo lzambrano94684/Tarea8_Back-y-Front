@@ -1,0 +1,93 @@
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\appsettings.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.staticwebassets.runtime.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.exe
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.deps.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.runtimeconfig.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.dll
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\bin\Debug\net7.0\AppEmpresa.pdb
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfoInputs.cache
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfo.cs
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cache
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cs
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.AppEmpresa.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.build.AppEmpresa.props
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AppEmpresa.props
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AppEmpresa.props
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\scopedcss\bundle\AppEmpresa.styles.css
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\scopedcss\projectbundle\AppEmpresa.bundle.scp.css
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.dll
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\refint\AppEmpresa.dll
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.pdb
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\AppEmpresa.genruntimeconfig.cache
+C:\Users\userg\Documents\UMG 2023\PROGRA II\AppEmpresa\obj\Debug\net7.0\ref\AppEmpresa.dll
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\appsettings.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.staticwebassets.runtime.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.exe
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.deps.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.runtimeconfig.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.dll
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.pdb
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfoInputs.cache
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfo.cs
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cache
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cs
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.AppEmpresa.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.build.AppEmpresa.props
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AppEmpresa.props
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AppEmpresa.props
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\bundle\AppEmpresa.styles.css
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\projectbundle\AppEmpresa.bundle.scp.css
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.dll
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\refint\AppEmpresa.dll
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.pdb
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.genruntimeconfig.cache
+C:\Users\userg\Desktop\TAREA_8\AppEmpresa\obj\Debug\net7.0\ref\AppEmpresa.dll
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\appsettings.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.staticwebassets.runtime.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.exe
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.deps.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.runtimeconfig.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.dll
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\bin\Debug\net7.0\AppEmpresa.pdb
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfoInputs.cache
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.AssemblyInfo.cs
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cache
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.RazorAssemblyInfo.cs
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.AppEmpresa.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.build.AppEmpresa.props
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AppEmpresa.props
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AppEmpresa.props
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\bundle\AppEmpresa.styles.css
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\scopedcss\projectbundle\AppEmpresa.bundle.scp.css
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.dll
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\refint\AppEmpresa.dll
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.pdb
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\AppEmpresa.genruntimeconfig.cache
+C:\Users\Luis Zambra\Documents\MIUMG\VIII SEMESTRE\5- Programacion 2\VisualCod\TAREA_8\AppEmpresa\obj\Debug\net7.0\ref\AppEmpresa.dll

@@ -1,0 +1,180 @@
+@page "/v_estudiante"
+@using AppEmpresa.Data
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory ClientFactory
+
+<h1>Formulario de Estudiantes</h1>
+
+@if (getEstudianteError || iestudiante is null)
+{
+    <p>NO EXISTE API BB</p>
+}
+else
+{
+
+    <form> 
+    <label for="lbl_id" class="form-label">ID</label>
+    <input @bind="var_id_estudiante" type="text" class="form-control" placeholder="ID"readonly >
+
+    <label for="lbl_carne" class="form-label">Carne</label>
+    <input @bind="var_carne"type="text" class="form-control" placeholder="Ejemplo: 7690-20-465">
+
+    <label for="lbl_nombres" class="form-label">Nombres</label>
+    <input @bind="var_nombres"type="text" class="form-control" placeholder="Ejemplo: Luis">
+
+    <label for="lbl_apellidos" class="form-label">Apellidos</label>
+    <input @bind="var_apellidos"type="text" class="form-control" placeholder="Ejemplo: Enrique">
+
+    <label for="lbl_direccion" class="form-label">Direccion</label>
+    <input @bind="var_direccion"type="text" class="form-control" placeholder="Ejemplo: Guatemala">
+
+    <label for="lbl_telefono" class="form-label">Telefono</label>
+    <input @bind="var_telefono"type="text" class="form-control" placeholder="Ejemplo: 8888888">
+
+    <label for="lbl_correo_electronico" class="form-label">Correo</label>
+    <input @bind="var_correo_electronico"type="text" class="form-control" placeholder="Ejemplo: nombre@gmail.com">
+
+    <label for="lbl_fecha_nacimiento" class="form-label">Fecha_Nacimiento</label>
+    <input @bind="var_fecha_nacimiento"type="date" class="form-control" placeholder="YYYY-MM-dd">
+
+
+    <br>
+          <button type="button" @onclick = "Crear" class="btn btn-info">Crear</button>
+        <button type="button" @onclick = "Actualizar" class="btn btn-success">Modificar</button>
+        <button type="button" @onclick = "Eliminar" class="btn btn-danger">Eliminar</button>
+
+    </form>
+
+
+
+
+
+
+    <table class="table">
+
+    <tbody>
+
+    <tr>
+    <th></th>
+    <th>ID</th>
+    <th>Carne</th>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>Direccion</th>
+    <th>Telefono</th>
+    <th>Correo</th>
+    <th>Fecha_nacimiento</th>
+
+    </tr>
+    </tbody>
+        @foreach (var estudiante in iestudiante)
+        {
+            <tr>
+            <td><button type="button" @onclick="(() => enviarParametros( estudiante.Id, estudiante.carne, estudiante.nombres, estudiante.apellidos, estudiante.direccion, estudiante.telefono, estudiante.correo_electronico, estudiante.fecha_nacimiento) )" class="btn btn-info"><i class="oi oi-pencil"></i></button></td>
+            <td>@estudiante.Id</td>
+            <td>@estudiante.carne</td>
+            <td>@estudiante.nombres</td>
+            <td>@estudiante.apellidos</td>
+            <td>@estudiante.direccion</td>
+            <td>@estudiante.telefono</td>
+            <td>@estudiante.correo_electronico</td>
+            <td>@estudiante.fecha_nacimiento</td>
+            </tr>
+
+
+
+        }
+    </table>
+}
+
+@code {
+
+    private string? url = "https://localhost:7045/Estudiantes";
+    private int var_id_estudiante;
+    private String? var_carne, var_nombres, var_apellidos, var_direccion, var_telefono, var_correo_electronico;
+    private DateTime? var_fecha_nacimiento;
+
+    void enviarParametros(int id, string? car, string? nom, string? ape, string? dir, string? tel,string? corr, DateTime? f ){
+        var_id_estudiante = id;
+        var_carne = car;
+        var_nombres = nom;
+        var_apellidos = ape;
+        var_direccion = dir;
+        var_telefono = tel;
+        var_correo_electronico = corr;
+        var_fecha_nacimiento = f;
+    }
+
+// CREAR 
+
+    private async Task Crear()
+    {
+        var estudia = ClientFactory.CreateClient();
+        var addItem = new Estudiante { Id = var_id_estudiante, carne= var_carne, nombres=var_nombres, apellidos=var_apellidos,direccion=var_direccion,telefono=var_telefono,correo_electronico=var_correo_electronico,fecha_nacimiento=var_fecha_nacimiento};
+        await estudia.PostAsJsonAsync(url, addItem);
+        await OnInitializedAsync();
+    }
+
+
+//MODIFICAR
+
+private async Task Actualizar()
+    {
+        var client = ClientFactory.CreateClient();
+    var addItem = new Estudiante { Id = var_id_estudiante, carne= var_carne, nombres=var_nombres, apellidos=var_apellidos,direccion=var_direccion,telefono=var_telefono,correo_electronico=var_correo_electronico,fecha_nacimiento=var_fecha_nacimiento};
+        await client.PutAsJsonAsync($"{url}/{var_id_estudiante}", addItem);
+        //url/var_idcliente
+        await OnInitializedAsync();
+    }
+
+
+//ELIMINAR
+private async Task Eliminar()
+    {
+        var client = ClientFactory.CreateClient();
+        await client.DeleteAsync($"{url}/{var_id_estudiante}");
+        //url/var_idcliente
+        await OnInitializedAsync();
+    }
+
+
+
+
+
+    private IEnumerable<Estudiante>? iestudiante = Array.Empty<Estudiante>();
+    private bool getEstudianteError;
+    private bool shouldRender;
+
+    protected override bool ShouldRender() => shouldRender;
+
+
+
+
+// LEER 
+    protected override async Task OnInitializedAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get,
+            url);
+        request.Headers.Add("Accept", "application/vnd.github.v3+json");
+        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+
+        var estudi = ClientFactory.CreateClient();
+
+        var response = await estudi.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            using var responseStream = await response.Content.ReadAsStreamAsync();
+            iestudiante = await JsonSerializer.DeserializeAsync
+                <IEnumerable<Estudiante>>(responseStream);
+        }
+        else
+        {
+            getEstudianteError = true;
+        }
+
+        shouldRender = true;
+    }
+
+}
